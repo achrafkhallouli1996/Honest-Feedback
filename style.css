@@ -1,0 +1,71 @@
+body {
+    font-family: Arial;
+    color: white;
+}
+
+.split {
+    height: 100%;
+    width: 33.333333%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-image:  url(https://images.unsplash.com/photo-1518538173784-afcf776eb363?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9629ebb51f8289cdf2f771d05dfb2014&auto=format&fit=crop&w=500&q=60) 
+ ;
+ background-repeat: no-repeat;
+ background-size:100% 100%;
+
+}
+
+.center {
+    left: 33.333333%;
+    background-image:  url(https://images.unsplash.com/photo-1531989417401-0f85f7e673f8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=30d7d233aa50c5dd01fde6568cda78ea&auto=format&fit=crop&w=1350&q=80) 
+ ;
+ background-repeat: no-repeat;
+ background-size:100% 100%;
+
+}
+
+
+.right {
+    right: 0;
+    background-image:   url(https://images.unsplash.com/photo-1517169080800-4be31de72509?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c87cd5b11d3c2de06b5e7a0ab273d841&auto=format&fit=crop&w=564&q=80);
+ background-repeat: no-repeat;
+ background-size:100% 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.down {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.down img {
+    width: 300px;
+}
+#logo {
+  font: 400 40px/1.3 'Oleo Script', Helvetica, sans-serif;
+  color: #2b2b2b;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+  background-color: pink;
+}
